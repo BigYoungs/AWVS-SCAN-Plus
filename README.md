@@ -92,11 +92,11 @@ Options:
 
 添加一个目标：
 
-python3 awvs_cli.py -t https://baidu.com -m 1 -l test
+`python3 awvs_cli.py -t https://baidu.com -m 1 -l test`
 
 批量添加目标：
 
-python3 awvs_cli.py -f ./url.txt -m 1 -l test
+`python3 awvs_cli.py -f ./url.txt -m 1 -l test`
 
 **[awvs_mod]参数特别说明**
 
