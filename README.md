@@ -68,7 +68,42 @@ Blog: https://sec.bigyoung.cn
 
 ## 使用方式二：命令行参数
 
-待开发~
+用于自动化处理场景，通过命令直接调用，无需交互式操作
+
+**使用方式：**
+
+```bash
+Usage: awvs_cli.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -t TARGET, --target=TARGET
+                        Please Enter the AWVS Target, eg: https://test.com
+  -f FILE, --file=FILE  Please Enter the url.txt filepath, eg: ./urls.txt
+  -m MOD, --mod=MOD     Please Enter Your AWVS Scan mod, eg:
+                        查看config.ini配置文件[awvs_mod]配置，有注释说明
+  -s SWITCH, --switch=SWITCH
+                        是否开启扫描,eg:1：开启扫描，0：不开启扫描, 默认是1
+  -l LABEL, --label=LABEL
+                        添加扫描任务的目标描述
+```
+
+**使用示例：**
+
+添加一个目标：
+
+python3 awvs_cli.py -t https://baidu.com -m 1 -l test
+
+批量添加目标：
+
+python3 awvs_cli.py -f ./url.txt -m 1 -l test
+
+**[awvs_mod]参数特别说明**
+
+1-11参数两种使用模式都可以直接使用。
+
+12这个参数，在交互式命令的使用场景下，会要求你手动输入已经在AWVS里定义好的模板profile_id。如果通过方式二使用时，12这个参数是无效的，如果需要使用自定义profile_id，使用方式是`-m 11111-1111-222-333`，直接输入profile_id即可。
+
 
 # 此工具使用的AWVS版本：
 
@@ -87,15 +122,20 @@ bash <(curl -sLk https://www.fahai.org/aDisk/Awvs/check.sh) xrsec/awvs:v15
 
 # 版本更新记录
 
-## V1.0.0
+## V1.0.0 @2023-11-28
 
 > 提示：此版本基于[awvs14-scan](https://github.com/test502git/awvs14-scan)开发，感谢原作者的开源分享
 
 * 重构代码结构、优化代码逻辑
 
+## V1.1.0 @2023-11-30
+
+* 增加命令行参数形式，运行脚本，方便脚本自动化调用
+
+
 # TODO
 
-- [ ] 增加命令行参数形式，运行脚本，方便脚本自动化调用
+- [x] 增加命令行参数形式，运行脚本，方便脚本自动化调用
 - [ ] 增加导出报告功能
 - [ ] 漏洞通知增加多渠道：飞书、钉钉
 - [ ] 增加漏洞信息推送到webhook接口，方便漏洞自动化录入漏洞管理平台
