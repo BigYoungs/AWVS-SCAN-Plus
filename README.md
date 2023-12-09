@@ -178,6 +178,6 @@ bash <(curl -sLk https://www.fahai.org/aDisk/Awvs/check.sh) xrsec/awvs:v15
 
 # 下载地址&获取最新版
 
-**国内用户点我：**[https://note.mowen.cn/note-intro/?noteUuid=CpZRasoY4D6a3WQoJ3O4q](https://note.mowen.cn/note-intro/?noteUuid=CpZRasoY4D6a3WQoJ3O4q)
+**国内用户点我：[https://note.mowen.cn/note-intro/?noteUuid=CpZRasoY4D6a3WQoJ3O4q](https://note.mowen.cn/note-intro/?noteUuid=CpZRasoY4D6a3WQoJ3O4q)**
 
-**Overseas users click me: ** [https://ko-fi.com/s/405c293f61](https://ko-fi.com/s/405c293f61)
+**Overseas users click me: [https://ko-fi.com/s/405c293f61](https://ko-fi.com/s/405c293f61)**
