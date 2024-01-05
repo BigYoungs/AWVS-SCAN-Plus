@@ -174,10 +174,8 @@ bash <(curl -sLk https://www.fahai.org/aDisk/Awvs/check.sh) xrsec/awvs:v15
 
 # 版权声明
 
-本项目仅限于购买[专栏](https://note.mowen.cn/note-intro/?noteUuid=CpZRasoY4D6a3WQoJ3O4q)者使用，未经授权禁止转载、传播、复制等，否则将追究法律责任。
+本项目仅限于购买者使用，未经授权禁止转载、传播、复制等，否则将追究法律责任。
 
 # 下载地址&获取最新版
 
-**国内用户点我：[https://note.mowen.cn/note-intro/?noteUuid=CpZRasoY4D6a3WQoJ3O4q](https://note.mowen.cn/note-intro/?noteUuid=CpZRasoY4D6a3WQoJ3O4q)**
-
-**Overseas users click me: [https://ko-fi.com/s/405c293f61](https://ko-fi.com/s/405c293f61)**
+[https://mbd.pub/o/bread/mbd-ZZmWl5Zv](https://mbd.pub/o/bread/mbd-ZZmWl5Zv)
