@@ -178,4 +178,4 @@ bash <(curl -sLk https://www.fahai.org/aDisk/Awvs/check.sh) xrsec/awvs:v15
 
 # 下载地址&获取最新版
 
-[https://afdian.net/a/bigyoung?tab=shop](https://afdian.net/a/bigyoung?tab=shop)
+[https://ifdian.net/a/bigyoung?tab=shop](https://ifdian.net/a/bigyoung?tab=shop)
