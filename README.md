@@ -178,4 +178,6 @@ bash <(curl -sLk https://www.fahai.org/aDisk/Awvs/check.sh) xrsec/awvs:v15
 
 # 下载地址&获取最新版
 
-[https://ifdian.net/a/bigyoung?tab=shop](https://ifdian.net/a/bigyoung?tab=shop)
+**主要链接：**[https://ifdian.net/a/bigyoung?tab=shop](https://ifdian.net/a/bigyoung?tab=shop) ，页面搜“AWVS-SCAN-Plus”
+
+**备用链接：** [https://mbd.pub/o/bread/mbd-ZpiblJdu](https://mbd.pub/o/bread/mbd-ZpiblJdu)
